@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Recurses/icon.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="../Styles/login.css">
+    
+    <title>Login</title>
+</head>
+<body>
+    <main class="principal">
+        <section id="login">
+            <form method="POST" action="../Php/login.php" class="login">
+                <div class="usuario">
+                    <label for="usuario">Usuario:</label>
+                    <input type="email" placeholder="Escriba aquí" id="usuario" name="usuario">
+                </div>
+
+                <div class="password">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" placeholder="Escriba aquí" id="password" name="password">
+                </div>
+
+                <div class="botones">
+                    <div class="Ingresar">
+                        <button type="submit" id="enviar">Ingresar</button>
+                    </div>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+
+</body>
+</html>

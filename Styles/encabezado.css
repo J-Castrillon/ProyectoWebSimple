@@ -1,0 +1,44 @@
+body{
+    margin: 0; 
+    background-image: url("../Recurses/encabezado.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    background-attachment: fixed;
+}
+
+body:before{
+    content: "";
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+
+    background: linear-gradient(#111111,#111111);
+    opacity: 0.6;
+    z-index: -1; 
+}
+
+main{
+    height: 1000px;
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titulo{
+    width: auto;
+    height: 1000px;
+}
+
+h1{
+    margin-top: 10%;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+}

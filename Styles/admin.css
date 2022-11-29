@@ -1,0 +1,44 @@
+body{
+    background: black;
+    color: white; 
+    margin: 0;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;    
+    background: white;
+    color: black;
+}
+
+.principal{
+    margin-top: 5%;
+}
+
+.principal div{
+    border: none; 
+    background: white; 
+    border-radius: 5px;
+    width: 7%;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.principal a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+button{
+    background: white;
+    border: none;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
+    height: 30px;
+    font-size: 15px;
+}
+button:hover{
+    cursor:pointer;
+}

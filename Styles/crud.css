@@ -1,0 +1,32 @@
+body{
+    margin: 0; 
+    color: white; 
+    background: black;
+}
+
+form{
+    margin-top: 5%;
+}
+
+form input{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: none; 
+}
+
+form button{
+    background: #0793b6 ;
+    border: none; 
+    border-radius: 5px;
+    height: 30px;
+    width: 7%;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+form button:hover{
+    background: #077692;
+}
+

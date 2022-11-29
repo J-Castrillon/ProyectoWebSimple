@@ -1,0 +1,106 @@
+/* font-family: 'Oswald', sans-serif; Primera fuente*/
+
+body{
+    margin: 0; 
+    background-image: url("../Recurses/fondo-login.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    background-attachment: fixed;
+    
+}
+
+/* Creación de transparencia de fondo */
+body:before{
+    content: ""; 
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+
+    /* transparencia */
+    background: linear-gradient(#111111,#111111);
+    opacity: 0.6;
+    z-index: -1; 
+}
+
+
+/* Lineación del login */
+ main{
+    width: 1000px;
+    height: 700px;
+    margin: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-bottom: 15%;
+}
+
+section {
+    display: flex;
+    color: white; 
+}
+
+form{
+    border: solid 2px white;
+    padding: 3%;
+    padding-right: 5%;
+}
+
+form label{
+    font-family: 'Oswald', sans-serif;
+}
+
+#usuario{
+    border-radius: 5px;
+    border: none;
+}
+
+#password{
+    border-radius: 5px;
+    border: none;
+}
+
+.usuario{
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.usuario input{
+    margin-left: 15%;
+}
+
+.password{
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+.password input{
+    margin-left: 7%;
+}
+
+.botones{
+    display: flex; 
+    margin: 0; 
+}
+
+.botones div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40%; 
+}

@@ -1,0 +1,176 @@
+/* font-family: 'Roboto', sans-serif;  */
+
+body {
+    margin: 0; 
+    background: black;
+    /* background: linear-gradient(90deg,rgb(202, 224, 228),rgb(72, 186, 206)); */
+    font-family: 'Roboto', sans-serif;
+    color: rgb(192, 192, 192);
+}
+
+.encabezado{
+    display: flex; 
+    flex-direction: row;
+    padding: 1%;
+    background: rgb(252, 255, 238); 
+    border-bottom: 2px solid black;
+}
+
+.encabezado div{
+    width: 100%;
+}
+
+.encabezado .barra{
+    display: flex; 
+    margin: 0;
+}
+.encabezado .barra div{
+    display: flex; 
+    flex-direction: row; 
+    /* align-items: flex-start; */
+    /* justify-content: start; */
+    
+}
+
+/* Logo */
+.encabezado .logo{
+    width: 10%;
+    margin-left: 3%;
+}
+.logo img{
+    width: 60%;
+}
+
+
+/* Barra de búsqueda */
+
+.barra{
+    padding-left: 15%;
+}
+
+.barra .icon{
+    width: 5%;
+    height: auto;
+    margin-right: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.busqueda{
+    width: 100%;
+    height: auto;
+}
+
+.busqueda form{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search{
+    height: 60%;
+}
+
+.search input{
+    width: 100%;
+}
+
+#search{
+    border-radius: 9px;
+    border: none;
+}
+
+.button{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.button button{
+    margin-left: 2%;
+    width: 20%; 
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+
+    border: none; 
+    background: #0793b6;
+    border-radius: 4px;
+}
+
+.button button:hover{
+    background: #077692;
+}
+
+/* -----------Links------------- */
+.catego{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    height: 10%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.catego div{
+     margin-top: 2%; 
+    margin-right: 4%; 
+    
+    width: 9%;
+    height: 20px;
+    text-align: center;
+
+    background: #0793b6;
+    border-radius: 10px; 
+}
+.catego div:hover{
+    background: #077692;
+}
+.catego a{
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+
+/* --------------------Productos------------------- */
+/* Titulo */
+.lanzamientos{
+    text-align: center;
+    font-size: 140%;
+}
+
+/* Products */
+.news{
+    margin-top: 2%;
+    margin-left: 3%; 
+}
+
+.news img{
+    width: 130px;
+    height: auto;
+}
+
+.productos{
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 2%;
+    
+}
+.productos div{
+    padding-right: 5%;
+}
+
+.productos p{
+    padding-left: 5%;
+}
+.productos span{
+    font-weight: 600;
+}
+
